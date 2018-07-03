@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Goodstuff / Badstuff List</title>
+<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <h1>List of the Good Stuff and Bad Stuff</h1>
+    <p>This is the kind of stuff we want and don't want.</p>
+    <div class="flexbox-container">
+
+        <div class="c1">
+            <h2>The Good Stuff</h2>
+            <input type="text" id="good_input" name="Goodstuff" placeholder="rainbows">
+            <button type="button" id="goodbutton" name="Goodstuff">Add good stuff</button>
+            <ul class="goodlist">
+                <br>
+                <label class="container">
+                    <input type="checkbox" checked="checked">
+                    <li class="gooditem">Win the World Series</li>
+                    <span class="checkmark"></span>
+                </label>
+                <label class="container">
+                    <input type="checkbox">
+                    <li class="gooditem">Ice cream</li>
+                    <span class="checkmark"></span>
+                </label>
+                <label class="container">
+                    <input type="checkbox">
+                    <li class="gooditem">Coffee</li>
+                    <span class="checkmark"></span>
+                </label>
+                <label class="container">
+                    <input type="checkbox">
+                    <li class="gooditem">Bicycling</li>
+                    <span class="checkmark"></span>
+                </label>
+                <label class="container">
+                    <input type="checkbox">
+                    <li class="gooditem">Ems</li>
+                    <span class="checkmark"></span>
+                </label>
+            </ul>
+        </div>
+        <div class="c2">
+            <h2>The Bad Stuff</h2>
+            <input type="text" id="bad_input" name="Badstuff" placeholder="bee stings">
+            <button type="button" id="badbutton" name="Badstuff">Add bad stuff</button>
+            <ul class="badlist">
+                <br>
+                <label class="container">
+                    <input type="checkbox" checked="checked">
+                    <li class="baditem">Strike three</li>
+                    <span class="checkmark"></span>
+                    <!-- TODO: Add a delete button -->
+                    <!-- <button class="delete">❌</button> -->
+                </label>
+                <label class="container">
+                    <input type="checkbox">
+                    <li class="baditem">Prune juice</li>
+                    <span class="checkmark"></span>
+                </label>
+                <label class="container">
+                    <input type="checkbox">
+                    <li class="baditem">Child thefts</li>
+                    <span class="checkmark"></span>
+                </label>
+                <label class="container">
+                    <input type="checkbox">
+                    <li class="baditem">Anthony Kennedy</li>
+                    <span class="checkmark"></span>
+                </label>
+            </ul>
+
+        </div>
+
+    </div>
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+<footer>
+    <a href="http://wearecomposite.co" data-ix="click-and-pop-up" target="_blank"
+        class="link-block-6 w-hidden-medium w-hidden-small w-hidden-tiny w-inline-block"></a>
+    <a href="http://www.wearecomposite.co" target="_blank"
+        class="click-link-div link-block-7 w-inline-block"
+        style="transform-style: preserve-3d;
+        display: block;
+        opacity: 0;
+        transform: translateX(0px) translateY(50px) translateZ(0px);
+        transition: opacity 200ms, transform 200ms;">
+        <div class="text-block-6">Design by Composite Co.</div>
+</footer>
+</html>
